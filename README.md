@@ -48,7 +48,7 @@ It runs the simulation **twice** — once as-is, and once with a `1e-8` nudge to
 
 **Note:** the animation loops use `drawnow` and therefore expect a graphical display. If you're running headlessly (e.g. in CI, or over SSH without X forwarding), comment out the animation section, or run with a virtual display (e.g. `xvfb-run octave three_body_3d_chaos.m`).
 
-## Ideas for extending this
+## Ideas for extending this(in the future)
 
 - Increase `N` and add more bodies to `three_body_3d_chaos.m` (the equations of motion are already written generally for any number of bodies).
 - Perturb a different coordinate, or a different body, and compare how quickly it diverges.
