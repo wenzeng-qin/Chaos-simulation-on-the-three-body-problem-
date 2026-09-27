@@ -4,7 +4,7 @@
 Two MATLAB scripts that simulate gravitating bodies by numerically integrating Newton's equations of motion with ode45(via Runge Kutta method), and then animate the result. Note: the code for animation is given for granted by the question itself, the original coursework was to work out the modelling dynamic of two body system along with Newton's law and setting up the ODE on MatLab. 
 
 - **`two_body_2d.m`** — the classic 2-body problem in a plane. One body orbits another in a fixed, repeating ellipse. 
-- **`three_body_3d_chaos.m`** — precisely the same idea extended to **three** bodies in **3D**, used to demonstrate that adding just one more body turns a perfectly predictable system into a chaotic one. Still unfinished...
+- **`three_body_3d_chaos.m`** — precisely the same idea extended to **three** bodies in **3D**, used to demonstrate that adding just one more body turns a perfectly predictable system into a chaotic one. Still unfinished file is yet be to uploaded...
 
 
 ## Why two scripts?
