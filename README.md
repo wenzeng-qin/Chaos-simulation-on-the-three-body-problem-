@@ -7,7 +7,7 @@ Two MATLAB scripts that simulate gravitating bodies by numerically integrating N
 - **`three_body_3d_chaos.m`** — precisely the same idea extended to **three** bodies in **3D**, used to demonstrate that adding just one more body turns a perfectly predictable system into a chaotic one. 
 - Note: I have also added an extended version for the animating the three body as well.
 
-##A Plot of result
+## A Plot of result
 
 ![image](chaos_plot.png)
 
