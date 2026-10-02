@@ -7,6 +7,10 @@ Two MATLAB scripts that simulate gravitating bodies by numerically integrating N
 - **`three_body_3d_chaos.m`** — precisely the same idea extended to **three** bodies in **3D**, used to demonstrate that adding just one more body turns a perfectly predictable system into a chaotic one. 
 - Note: I have also added an extended version for the animating the three body as well.
 
+##A Plot of result
+
+![image](chaos_plot.png)
+
 ## Why two scripts?
 
 The 2-body problem is integrable: there's a closed-form solution, and two initial conditions that start close together stay close together forever. The moment you add a third gravitating body, no general closed-form solution exists, and the system becomes chaotic: two initial conditions that differ by a tiny amount can diverge completely after a while. The two scripts here are meant to be run side by side so you can see that contrast for yourself.
